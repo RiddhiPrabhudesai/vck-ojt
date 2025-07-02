@@ -8,9 +8,7 @@ const HomePage = () => {
             <div class="body-container">
                 <div className="scrollbox">
                 <div className="main-image">
-                    <div className="image-only">
                     <img src="\Images\college-banner.png"  alt="Vivekanand College Header Image" align="center"  class="image"/>
-                    </div>
                 <div class="main-image-section">
                     <h1 style={{textAlign:"center"}}>Welcome to Vivekanand College</h1>
                     <p>Your journey to excellence starts here!</p>
