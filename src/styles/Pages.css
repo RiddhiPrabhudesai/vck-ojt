@@ -24,6 +24,11 @@ color:white;
   object-fit: fill;
   position: sticky;
   filter: brightness(60%);
+  /* height: 100%;
+  width: 100%;
+  object-fit: fill;
+  filter: brightness(60%); */
+  z-index: 1;
  }
 
  .course-page-btn{
@@ -45,7 +50,9 @@ color:white;
  }
  .main-image{
   position:sticky;
+  z-index: auto;
  }
+
  .main-image-section{
     position: absolute;  
     top: 50%;
@@ -54,8 +61,14 @@ color:white;
     color: #fff;
     text-align: center;
     width: 90%;
+    z-index:2;
    /* font-size: larger;*/
-   z-index: 0; 
+  /* position: relative;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  margin-bottom: 40px;
+  border-radius: 8px; */
  }
  .main-image-section h1{
 
@@ -153,6 +166,8 @@ color:white;
   text-align: center;
   margin-bottom: 25px;
   font-size: 2.5em;
+  z-index: 2;
+  position: sticky;
   animation: fadeInUptoBottom 1s ease-out forwards;
 }
 .admissions-table {
@@ -205,9 +220,9 @@ color:white;
   margin-bottom: 10px;
   line-height: 1.6;
 }
-.scrollbox{
+/* .scrollbox{
   z-index: 10;
-} 
+}  */
  @keyframes fadeInUptoBottom {
   from {
     opacity: 0;

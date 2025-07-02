@@ -38,7 +38,7 @@ const App = () => {
              <Route path="/courses" element={<CoursesPage/>} />
             <Route path="/notfound" element={<NotFoundPage/>} />
             <Route path="/admission" element={<AdmissionPage/>} />
-            <Route path="/contact" element={<ContactPage/>} /> 
+            <Route path="/contact" element={<ContactPage/>} />
           </Routes>
           <ChatbotComponent/>
           <Footer/>
